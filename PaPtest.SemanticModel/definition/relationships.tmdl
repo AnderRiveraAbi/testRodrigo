@@ -1,0 +1,56 @@
+relationship c1732b62-c52e-4dcd-84cf-d94df93ca1bb
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MAZ_PaP_GENERAL_INCREMENTAL.FKDAT
+	toColumn: LocalDateTable_1013887c-f171-41b0-957a-c1c17953c6db.Date
+
+relationship 0347d42b-46a7-4ef8-8295-71873cc48bc2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Tabla Calendario'.Date
+	toColumn: LocalDateTable_bc382b34-2c27-42cd-b304-63e782c14c59.Date
+
+relationship a4dca67d-1c2c-4547-8ad2-2cac6428fc9e
+	fromColumn: MAZ_PaP_GENERAL_INCREMENTAL.ID_DATE
+	toColumn: 'Tabla Calendario'.Date
+
+relationship fc5003e2-a90d-4659-851b-293ce2c2995c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MAZ_PaP_GENERAL_INCREMENTAL.__insert_gmt_ts
+	toColumn: LocalDateTable_e7e6963e-061f-4e7f-8efb-7b393fe44be3.Date
+
+relationship 0db68edb-68b9-4189-adec-f3319ea6c5bf
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MAZ_PaP_GENERAL_INCREMENTAL.__update_gmt_ts
+	toColumn: LocalDateTable_f4b3fa83-5282-48ec-b2fc-fb5ef5c41714.Date
+
+relationship 820ee25a-a94a-418c-82a0-974a6d7cb6f2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MAZ_PaP_MAIN.__insert_gmt_ts
+	toColumn: LocalDateTable_bf9705c2-a0ab-4974-817c-fed4d7821065.Date
+
+relationship abe1c25d-9cbd-4392-86d3-a8c025013daf
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MAZ_PaP_MAIN.__update_gmt_ts
+	toColumn: LocalDateTable_b179d096-3d85-49ab-b0ef-d975c8a13ba3.Date
+
+relationship 8b5fd674-4b9a-4b20-b772-23ded9eb0064
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MAZ_PaP_CLIENT.__insert_gmt_ts
+	toColumn: LocalDateTable_8fafeb22-8d41-468a-baae-a0954e285eaa.Date
+
+relationship e3edac84-b5b7-4bb2-af2d-31c4ce6dce50
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MAZ_PaP_CLIENT.__update_gmt_ts
+	toColumn: LocalDateTable_8cbb4e3d-a931-45a9-ae39-9476c2cd59e0.Date
+
+relationship 82233ad3-3a4a-dbe9-321d-4dd6540883d6
+	crossFilteringBehavior: bothDirections
+	securityFilteringBehavior: bothDirections
+	fromColumn: MAZ_PaP_GENERAL_INCREMENTAL.'PK (C)'
+	toColumn: MAZ_PaP_MAIN.pkC
+
+relationship e59df654-c48c-8917-8394-99de0ecd8424
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: MAZ_PaP_CLIENT.pkC
+	toColumn: MAZ_PaP_GENERAL_INCREMENTAL.'PK Client (C)'
+

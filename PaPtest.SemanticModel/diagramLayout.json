@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 281.86662944777925
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 280,
+            "y": 470.94134347548015
+          },
+          "nodeIndex": "MAZ_PaP_GENERAL_INCREMENTAL",
+          "nodeLineageTag": "4c4a2aea-63e5-4db2-8271-49d748af6cfa",
+          "size": {
+            "height": 300,
+            "width": 405
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 925.52931081590657,
+            "y": 765.69332449384763
+          },
+          "nodeIndex": "Tabla Calendario",
+          "nodeLineageTag": "830746c5-d024-4c88-83a8-5a10a69278eb",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1352.9386439631453,
+            "y": 725.45063475147072
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "7faa4ed3-56c9-4d3e-a239-497b9af53252",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 746.69739120870338,
+            "y": 53.642696720918266
+          },
+          "nodeIndex": "MAZ_PaP_MAIN",
+          "nodeLineageTag": "d6fff631-0fc8-4ade-95d6-5c84db5d512d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 29.346819264105079,
+            "y": 138.34401507364942
+          },
+          "nodeIndex": "MAZ_PaP_CLIENT",
+          "nodeLineageTag": "111a56fd-eaf0-43c2-b742-dac0a932f584",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 70.955543900968792,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

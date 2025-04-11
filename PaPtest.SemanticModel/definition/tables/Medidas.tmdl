@@ -1,0 +1,550 @@
+table Medidas
+	lineageTag: 7faa4ed3-56c9-4d3e-a239-497b9af53252
+
+	measure 'Total Amount (M)' =
+			
+			
+			VAR _SumaValor=
+			SUM( MAZ_PaP_GENERAL_INCREMENTAL[mwsbp]) +  SUM(MAZ_PaP_GENERAL_INCREMENTAL[netwr])
+			
+			VAR _Validacion=
+			IF(
+			    ISBLANK(_SumaValor),
+			    0,
+			    _SumaValor
+			)
+			
+			RETURN
+			_Validacion
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: GENERAL
+		lineageTag: ccff4961-334f-4a0b-a1ca-d97dcfd50af4
+
+	measure 'Total Registries (M)' =
+			
+			
+			VAR _Conteo=
+			CALCULATE(
+			    COUNTROWS(MAZ_PaP_MAIN)
+			)
+			
+			VAR _Validacion =
+			IF(
+			    ISBLANK(_Conteo),
+			    0,
+			    _Conteo
+			)
+			
+			RETURN
+			_Validacion
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: 43a50c51-6f91-4708-a13f-40aec6fb64c8
+
+	measure 'Correct % (M)' =
+			
+			
+			VAR _Correctos=
+			CALCULATE(
+			    DISTINCTCOUNT(MAZ_PaP_MAIN[pkC]),
+			    FILTER(
+			        MAZ_PaP_MAIN,
+			        MAZ_PaP_MAIN[FINAL_STATUS]="CORRECT"
+			    )
+			)
+			
+			VAR _Totales=
+			CALCULATE(
+			    DISTINCTCOUNT(MAZ_PaP_MAIN[pkC])
+			)
+			
+			VAR _Resultado=
+			DIVIDE(
+			    _Correctos,
+			    _Totales,
+			    0
+			)
+			
+			RETURN
+			FORMAT(_Correctos,"#,##0") & UNICHAR(10) & FORMAT(_Resultado,"Percent")
+		displayFolder: MAIN
+		lineageTag: bd7a9027-ca98-425a-89c3-5ca2edab0e74
+
+	measure 'Crates Y054_Y064 (M)' =
+			
+			
+			VAR _SumaVal=
+			SUM(MAZ_PaP_MAIN[Y054]) + SUM(MAZ_PaP_MAIN[Y064])
+			
+			VAR _Resultado=
+			IF(
+			    ISBLANK(_SumaVal),
+			    0,
+			    _SumaVal
+			)
+			
+			RETURN
+			_Resultado
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: b5379d63-6f5b-40cc-99e7-50511b2eb354
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Invoices Y054_Y064 (M)' = ```
+			
+			
+			
+			VAR _invoices=
+			CALCULATE(
+			    DISTINCTCOUNT(MAZ_PaP_GENERAL_INCREMENTAL[VBELN]),
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "Y054" || MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "Y064"
+			    )
+			)
+			 
+			VAR _result=
+			IF(
+			    ISBLANK(_invoices),
+			    0,
+			    _invoices
+			)
+			 
+			RETURN
+			_result
+			```
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: 3c95bef9-b766-4905-bdfe-b350d5013f22
+
+	measure 'Value Y054_Y064 (M)' = ```
+			
+			
+			
+			VAR _value=
+			CALCULATE(
+			    [Total Amount (M)],
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "Y054" || MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "Y064"
+			    )
+			)
+			
+			VAR _resultado=
+			IF(
+			    ISBLANK(_value),
+			    0,
+			    _value
+			)
+			
+			RETURN
+			_resultado
+			
+			```
+		formatString: #,0
+		displayFolder: GENERAL
+		lineageTag: 6780113a-7608-4f4d-b28a-cdf2321b1cb1
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Crates YD51_YS1 (M)' =
+			
+			
+			VAR _SumaVal=
+			SUM(MAZ_PaP_MAIN[YD51]) + SUM(MAZ_PaP_MAIN[YS1])
+			
+			VAR _Resultado=
+			IF(
+			    ISBLANK(_SumaVal),
+			    0,
+			    _SumaVal
+			)
+			
+			RETURN
+			_Resultado
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: cd588698-303b-4a31-878a-0dd29f8fc6e9
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Invoices YD51_YS1 (M)' =
+			
+			
+			
+			VAR _invoices=
+			CALCULATE(
+			    DISTINCTCOUNT(MAZ_PaP_GENERAL_INCREMENTAL[VBELN]),
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "YD51" || MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "YS1"
+			    )
+			)
+			
+			VAR _result=
+			IF(
+			    ISBLANK(_invoices),
+			    0,
+			    _invoices
+			)
+			
+			RETURN
+			_result
+		formatString: 0
+		displayFolder: MAIN
+		lineageTag: eff598dc-802d-4724-a78b-17861fab73a8
+
+	measure 'Value YD51_YS1 (M)' = ```
+			
+			
+			
+			VAR _value=
+			CALCULATE(
+			    [Total Amount (M)],
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "YD51" || MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "YS1"
+			    )
+			)
+			
+			VAR _resultado=
+			IF(
+			    ISBLANK(_value),
+			    0,
+			    _value
+			)
+			
+			RETURN
+			_resultado
+			
+			```
+		formatString: #,0
+		displayFolder: GENERAL
+		lineageTag: 692fac70-3d58-4c79-8ba6-8c7a36cb4cdc
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Crates Y036 (M)' =
+			
+			
+			VAR _SumaVal=
+			SUM(MAZ_PaP_MAIN[Y036])
+			
+			VAR _Resultado=
+			IF(
+			    ISBLANK(_SumaVal),
+			    0,
+			    _SumaVal
+			)
+			
+			RETURN
+			_Resultado
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: 34844bd1-593c-4c89-a5f6-116872733382
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Invoices Y036 (M)' = ```
+			
+			
+			
+			VAR _invoices=
+			CALCULATE(
+			    DISTINCTCOUNT(MAZ_PaP_GENERAL_INCREMENTAL[VBELN]),
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "Y036" 
+			    )
+			)
+			
+			VAR _result=
+			IF(
+			    ISBLANK(_invoices),
+			    0,
+			    _invoices
+			)
+			
+			RETURN
+			_result
+			```
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: 9255b73f-bc18-4722-b411-79e6339f51ae
+
+	measure 'Value Y036 (M)' = ```
+			
+			
+			
+			VAR _value=
+			CALCULATE(
+			    [Total Amount (M)],
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "Y036" 
+			    )
+			)
+			
+			VAR _resultado=
+			IF(
+			    ISBLANK(_value),
+			    0,
+			    _value
+			)
+			
+			RETURN
+			_resultado
+			
+			```
+		formatString: #,0
+		displayFolder: GENERAL
+		lineageTag: 7cea32c1-ce95-4350-9f04-3e3210e22fce
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Crates YC36 (M)' =
+			
+			
+			VAR _SumaVal=
+			SUM(MAZ_PaP_MAIN[YC36])
+			
+			VAR _Resultado=
+			IF(
+			    ISBLANK(_SumaVal),
+			    0,
+			    _SumaVal
+			)
+			
+			RETURN
+			_Resultado
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: 212af34c-65e3-4a09-b0a9-2876911d9876
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Invoices YC36 (M)' = ```
+			
+			
+			
+			VAR _invoices=
+			CALCULATE(
+			    DISTINCTCOUNT(MAZ_PaP_GENERAL_INCREMENTAL[VBELN]),
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "YC36" 
+			    )
+			)
+			
+			VAR _result=
+			IF(
+			    ISBLANK(_invoices),
+			    0,
+			    _invoices
+			)
+			
+			RETURN
+			_result
+			```
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: 62a1c216-4982-4298-b8ca-8ec8878e85b8
+
+	measure 'Value YC36 (M)' = ```
+			
+			
+			
+			VAR _value=
+			CALCULATE(
+			    [Total Amount (M)],
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "YC36" 
+			    )
+			)
+			
+			VAR _resultado=
+			IF(
+			    ISBLANK(_value),
+			    0,
+			    _value
+			)
+			
+			RETURN
+			_resultado
+			```
+		formatString: #,0
+		displayFolder: GENERAL
+		lineageTag: 92b084dd-1cdf-49e7-b262-aed17ddaea7c
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Crates Y037 (M)' =
+			
+			
+			VAR _SumaVal=
+			SUM(MAZ_PaP_MAIN[Y037])
+			
+			VAR _Resultado=
+			IF(
+			    ISBLANK(_SumaVal),
+			    0,
+			    _SumaVal
+			)
+			
+			RETURN
+			_Resultado
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: c58c4fec-7cad-451b-ba0f-79f7736c4492
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Invoices Y037 (M)' = ```
+			
+			
+			
+			VAR _invoices=
+			CALCULATE(
+			    DISTINCTCOUNT(MAZ_PaP_GENERAL_INCREMENTAL[VBELN]),
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "Y037" 
+			    )
+			)
+			
+			VAR _result=
+			IF(
+			    ISBLANK(_invoices),
+			    0,
+			    _invoices
+			)
+			
+			RETURN
+			_result
+			```
+		formatString: 0
+		displayFolder: MAIN
+		lineageTag: 839482f0-eeb8-47fc-b28d-64d1be442039
+
+	measure 'Value Y037 (M)' = ```
+			
+			
+			
+			VAR _value=
+			CALCULATE(
+			    [Total Amount (M)],
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "Y037" 
+			    )
+			)
+			
+			VAR _resultado=
+			IF(
+			    ISBLANK(_value),
+			    0,
+			    _value
+			)
+			
+			RETURN
+			_resultado
+			```
+		formatString: #,0
+		displayFolder: GENERAL
+		lineageTag: 692ec68a-d3ad-4f8e-b9ca-78b4ff1aff29
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Crates YC37 (M)' =
+			
+			
+			VAR _SumaVal=
+			SUM(MAZ_PaP_MAIN[YC37])
+			
+			VAR _Resultado=
+			IF(
+			    ISBLANK(_SumaVal),
+			    0,
+			    _SumaVal
+			)
+			
+			RETURN
+			_Resultado
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: bc497c76-0569-48aa-8d31-5f49238519c7
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Invoices YC37 (M)' = ```
+			
+			
+			
+			VAR _invoices=
+			CALCULATE(
+			    DISTINCTCOUNT(MAZ_PaP_GENERAL_INCREMENTAL[VBELN]),
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "YC37" 
+			    )
+			)
+			
+			VAR _result=
+			IF(
+			    ISBLANK(_invoices),
+			    0,
+			    _invoices
+			)
+			
+			RETURN
+			_result
+			```
+		formatString: #,0
+		displayFolder: MAIN
+		lineageTag: 660f2e43-b2bf-4606-a1f6-a754b69894c7
+
+	measure 'Value YC37 (M)' = ```
+			
+			
+			
+			VAR _value=
+			CALCULATE(
+			    [Total Amount (M)],
+			    FILTER(
+			        MAZ_PaP_GENERAL_INCREMENTAL,
+			        MAZ_PaP_GENERAL_INCREMENTAL[FKART] = "YC37" 
+			    )
+			)
+			
+			VAR _resultado=
+			IF(
+			    ISBLANK(_value),
+			    0,
+			    _value
+			)
+			
+			RETURN
+			_resultado
+			```
+		formatString: #,0
+		displayFolder: GENERAL
+		lineageTag: 0cf4b66e-4ec9-4ea8-a8ca-02b6220e0395
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegación
+

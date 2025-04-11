@@ -1,0 +1,318 @@
+table MAZ_PaP_GENERAL_INCREMENTAL
+	lineageTag: 4c4a2aea-63e5-4db2-8271-49d748af6cfa
+
+	column VBELN
+		dataType: string
+		lineageTag: 8070c794-6141-4f92-83cf-f43b116248ac
+		summarizeBy: none
+		sourceColumn: VBELN
+
+		annotation SummarizationSetBy = Automatic
+
+	column KUNAG
+		dataType: string
+		lineageTag: 794d98cc-a9d3-44fe-824c-e364ae29cc2b
+		summarizeBy: none
+		sourceColumn: KUNAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column BUKRS
+		dataType: string
+		lineageTag: 22daf806-6f9f-460d-8d11-396fdda2d238
+		summarizeBy: none
+		sourceColumn: BUKRS
+
+		annotation SummarizationSetBy = Automatic
+
+	column FKART
+		dataType: string
+		lineageTag: 90995355-32a1-4f66-bafb-40e33c0f50f6
+		summarizeBy: none
+		sourceColumn: FKART
+
+		annotation SummarizationSetBy = Automatic
+
+	column FKDAT
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e5483540-a118-4ad4-97f1-e576fdd1c1b8
+		summarizeBy: none
+		sourceColumn: FKDAT
+
+		variation Variation
+			isDefault
+			relationship: c1732b62-c52e-4dcd-84cf-d94df93ca1bb
+			defaultHierarchy: LocalDateTable_1013887c-f171-41b0-957a-c1c17953c6db.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column BSTNK_VF
+		dataType: string
+		lineageTag: a4c2f76e-f262-4717-897d-f8eefb049fe8
+		summarizeBy: none
+		sourceColumn: BSTNK_VF
+
+		annotation SummarizationSetBy = Automatic
+
+	column VKORG
+		dataType: string
+		lineageTag: a5a992d9-ac0d-4f5e-8af4-f0a3adc3c680
+		summarizeBy: none
+		sourceColumn: VKORG
+
+		annotation SummarizationSetBy = Automatic
+
+	column VTWEG
+		dataType: string
+		lineageTag: 1f0a8a53-c561-4235-9b78-06ac6b9cd4b9
+		summarizeBy: none
+		sourceColumn: VTWEG
+
+		annotation SummarizationSetBy = Automatic
+
+	column SPART
+		dataType: string
+		lineageTag: 312f8903-6577-41ba-8e69-6c70d10c1b99
+		summarizeBy: none
+		sourceColumn: SPART
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_DATE
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 46f633c1-965b-4726-8d81-e1081c91ec08
+		summarizeBy: none
+		sourceColumn: ID_DATE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column MS_ID
+		dataType: string
+		lineageTag: 2a9e3abc-7a1c-49dd-8e2c-0785a1ef66bc
+		summarizeBy: none
+		sourceColumn: MS_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PaP
+		dataType: string
+		lineageTag: 82b47ceb-b089-44ac-8de8-e25f8ceed785
+		summarizeBy: none
+		sourceColumn: PaP
+
+		annotation SummarizationSetBy = Automatic
+
+	column XBLNR
+		dataType: string
+		lineageTag: f0e98f91-0f6d-4a96-9d1f-1c419a042d38
+		summarizeBy: none
+		sourceColumn: XBLNR
+
+		annotation SummarizationSetBy = Automatic
+
+	column POSNR
+		dataType: int64
+		formatString: 0
+		lineageTag: 8df51a7c-a02c-4b43-9a30-e53aed360278
+		summarizeBy: sum
+		sourceColumn: POSNR
+
+		annotation SummarizationSetBy = Automatic
+
+	column MATNR
+		dataType: string
+		lineageTag: b3f3b4bb-5e4e-461c-9956-55184023305b
+		summarizeBy: none
+		sourceColumn: MATNR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PMATN
+		dataType: string
+		lineageTag: f1225e91-5fb0-4c5c-aea7-772c6f3dc890
+		summarizeBy: none
+		sourceColumn: PMATN
+
+		annotation SummarizationSetBy = Automatic
+
+	column ARKTX
+		dataType: string
+		lineageTag: de04b331-8714-4463-9f8d-6bb5ad3193af
+		summarizeBy: none
+		sourceColumn: ARKTX
+
+		annotation SummarizationSetBy = Automatic
+
+	column SPARA
+		dataType: string
+		lineageTag: e6fdb64d-1381-46d1-baee-78865892df21
+		summarizeBy: none
+		sourceColumn: SPARA
+
+		annotation SummarizationSetBy = Automatic
+
+	column FKIMG
+		dataType: double
+		formatString: 0
+		lineageTag: cbfa2ad8-f64c-4db4-9181-fec38cb88531
+		summarizeBy: sum
+		sourceColumn: FKIMG
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column mwsbp
+		dataType: double
+		lineageTag: 91f9c8ff-ad01-4258-84ab-7336dde1cda5
+		summarizeBy: sum
+		sourceColumn: mwsbp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column netwr
+		dataType: double
+		formatString: 0
+		lineageTag: 78365885-398b-4bb1-a463-5c7f55da1b2e
+		summarizeBy: sum
+		sourceColumn: netwr
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column MONTH_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: d66a5ab4-623b-42cb-8d2a-8e0afdad067a
+		summarizeBy: count
+		sourceColumn: MONTH_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_MATNR
+		dataType: string
+		lineageTag: 13443619-d169-4072-8aa2-d36077f2c6b3
+		summarizeBy: none
+		sourceColumn: ID_MATNR
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PK (C)' = ```
+			
+			MAZ_PaP_GENERAL_INCREMENTAL[KUNAG] &
+			MAZ_PaP_GENERAL_INCREMENTAL[BSTNK_VF] &
+			MAZ_PaP_GENERAL_INCREMENTAL[MATNR]
+			
+			```
+		lineageTag: 1c139b0e-2812-445f-a1ee-ca45c76b220d
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PK Client (C)' = ```
+			
+			
+			MAZ_PaP_GENERAL_INCREMENTAL[KUNAG] & 
+			MAZ_PaP_GENERAL_INCREMENTAL[ID_MATNR]
+			```
+		lineageTag: 342b3a4b-12f0-49f5-b808-9f054712626b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column NAME_1
+		dataType: string
+		lineageTag: 9577e0ff-39f5-4df2-bc08-a7d4f19fe3d3
+		summarizeBy: none
+		sourceColumn: NAME_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column __insert_gmt_ts
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 488b07f9-b72c-4c80-a9c8-3cca1e6da2fe
+		summarizeBy: none
+		sourceColumn: __insert_gmt_ts
+
+		variation Variación
+			isDefault
+			relationship: fc5003e2-a90d-4659-851b-293ce2c2995c
+			defaultHierarchy: LocalDateTable_e7e6963e-061f-4e7f-8efb-7b393fe44be3.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column __update_gmt_ts
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 35238a4c-ae3b-46ff-a766-6e3bdb78b7e4
+		summarizeBy: none
+		sourceColumn: __update_gmt_ts
+
+		variation Variación
+			isDefault
+			relationship: 0db68edb-68b9-4189-adec-f3319ea6c5bf
+			defaultHierarchy: LocalDateTable_f4b3fa83-5282-48ec-b2fc-fb5ef5c41714.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column pkClient
+		dataType: string
+		lineageTag: eb7eacfb-2377-4c09-9349-5ab564ddc395
+		summarizeBy: none
+		sourceColumn: pkClient
+
+		annotation SummarizationSetBy = Automatic
+
+	column pkc
+		dataType: string
+		lineageTag: 70cd0884-3a4f-4047-827b-08333425bedf
+		summarizeBy: none
+		sourceColumn: pkc
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MAZ_PaP_GENERAL_INCREMENTAL = m
+		mode: import
+		queryGroup: Synapse
+		source = ```
+				let
+				    Parametro_Top=Top,
+				    Parametro_Total_Datos=TotalDatos,
+				    q="select  *
+				from brewdat_uc_maz_dev.gld_maz_finance_internalcontrol.maz_pap_general 
+				limit 100",
+				    q2="select *
+				from brewdat_uc_maz_dev.gld_maz_finance_internalcontrol.maz_pap_general 
+				  
+				"
+				,
+				
+				
+				    Source = if Parametro_Total_Datos = "0" then  Value.NativeQuery(Databricks.Catalogs(servidorADB, rutaADB,
+				                [Catalog=catalogo, Database=null, EnableAutomaticProxyDiscovery=null])
+				                {[Name=catalogo,Kind="Database"]}
+				                [Data],q,null,[EnableFolding=true])
+				            else Value.NativeQuery(Databricks.Catalogs(servidorADB, rutaADB,
+				                [Catalog=catalogo, Database=null, EnableAutomaticProxyDiscovery=null])
+				                {[Name=catalogo,Kind="Database"]}
+				                [Data],q2,null,[EnableFolding=true])
+				in
+				    Source
+				```
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegación
+

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "name": "992f082f770bda59d0c0",
+  "position": {
+    "x": 680.82850041425024,
+    "y": 86.959403479701734,
+    "z": 12000,
+    "height": 281.02734051367025,
+    "width": 491.00248550124263,
+    "tabOrder": 9000
+  },
+  "visualGroup": {
+    "displayName": "Textos",
+    "groupMode": "ScaleMode"
+  }
+}

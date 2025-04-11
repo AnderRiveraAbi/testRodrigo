@@ -1,0 +1,1767 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "name": "e631897a3e0c0b569b34",
+  "position": {
+    "x": 265.989110707804,
+    "y": 559.85480943738651,
+    "z": 6000,
+    "height": 153.32123411978222,
+    "width": 1001.2341197822142,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "VBELN"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.VBELN",
+              "nativeQueryRef": "Invoice",
+              "displayName": "Invoice"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                        }
+                      },
+                      "Property": "POSNR"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(MAZ_PaP_GENERAL_INCREMENTAL.POSNR)",
+              "nativeQueryRef": "Posnr",
+              "displayName": "Posnr"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "KUNAG"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.KUNAG",
+              "nativeQueryRef": "Client",
+              "displayName": "Client"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "BUKRS"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.BUKRS",
+              "nativeQueryRef": "Company",
+              "displayName": "Company"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "FKART"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.FKART",
+              "nativeQueryRef": "Doc. Class",
+              "displayName": "Doc. Class"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "ID_DATE"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.ID_DATE",
+              "nativeQueryRef": "Date",
+              "displayName": "Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "BSTNK_VF"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.BSTNK_VF",
+              "nativeQueryRef": "Purcharse order",
+              "displayName": "Purcharse order"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "MS_ID"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.MS_ID",
+              "nativeQueryRef": "MS",
+              "displayName": "MS"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "PaP"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.PaP",
+              "nativeQueryRef": "PaP"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "NAME"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.NAME",
+              "nativeQueryRef": "Client Name",
+              "displayName": "Client Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "INVOICE_2"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.INVOICE_2",
+              "nativeQueryRef": "Fiscal Invoice",
+              "displayName": "Fiscal Invoice"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "XBLNR"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.XBLNR",
+              "nativeQueryRef": "Reference",
+              "displayName": "Reference"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "ID_MATNR"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.ID_MATNR",
+              "nativeQueryRef": "Material ID",
+              "displayName": "Material ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "PMATN"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.PMATN",
+              "nativeQueryRef": "Material",
+              "displayName": "Material"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "ARKTX"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.ARKTX",
+              "nativeQueryRef": "Material Reference",
+              "displayName": "Material Reference"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                    }
+                  },
+                  "Property": "SPARA"
+                }
+              },
+              "queryRef": "MAZ_PaP_GENERAL_INCREMENTAL.SPARA",
+              "nativeQueryRef": "SPARA"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                        }
+                      },
+                      "Property": "FKIMG"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(MAZ_PaP_GENERAL_INCREMENTAL.FKIMG)",
+              "nativeQueryRef": "Crates",
+              "displayName": "Crates"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                        }
+                      },
+                      "Property": "mwsbp"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(MAZ_PaP_GENERAL_INCREMENTAL.mwsbp)",
+              "nativeQueryRef": "Tax",
+              "displayName": "Tax"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                        }
+                      },
+                      "Property": "netwr"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(MAZ_PaP_GENERAL_INCREMENTAL.netwr)",
+              "nativeQueryRef": "Value",
+              "displayName": "Value"
+            }
+          ],
+          "showAll": true
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "MAZ_PaP_GENERAL_INCREMENTAL"
+                  }
+                },
+                "Property": "PaP"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "autoSizeColumnWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'wf_standard-font, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E2BC23'"
+                    }
+                  }
+                }
+              }
+            },
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E2BC23'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'wf_standard-font, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "121D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Medidas.Saldo Acumulado (M)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "62D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2023-Jan'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "39D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "total": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla Calendario"
+                        }
+                      },
+                      "Property": "Fecha_S (C)"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "62D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Jan'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "63D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Apr'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Aug'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Dec'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "63D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Feb'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "59D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Jul'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "63D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Jun'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Mar'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "65D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-May'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "65D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Nov'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "61D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Oct'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_S (C)"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Sep'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "62D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Jan'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "63D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Feb'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Mar'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "63D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Apr'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "65D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-May'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "63D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Jun'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "59D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Jul'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Aug'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Sep'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "61D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Oct'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "65D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Nov'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Tabla Calendario"
+                          }
+                        },
+                        "Property": "Fecha_s"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'2022-Dec'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "78D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.VBELN"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "89D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(MAZ_PaP_GENERAL_INCREMENTAL.POSNR)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "78D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.KUNAG"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "80.92515950083137D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.BUKRS"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "79.92518347023565D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.FKART"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "71D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.ID_DATE"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "130D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.BSTNK_VF"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "44D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.MS_ID"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "31D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.PaP"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "260D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.NAME"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "107.90176947795834D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.INVOICE_2"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "87D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.XBLNR"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "128D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.ID_MATNR"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "128D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.PMATN"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "48D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.SPARA"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "86D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(MAZ_PaP_GENERAL_INCREMENTAL.FKIMG)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "90D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(MAZ_PaP_GENERAL_INCREMENTAL.mwsbp)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "83D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(MAZ_PaP_GENERAL_INCREMENTAL.netwr)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "264D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "MAZ_PaP_GENERAL_INCREMENTAL.ARKTX"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E3C123'"
+                    }
+                  }
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Data Detail'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

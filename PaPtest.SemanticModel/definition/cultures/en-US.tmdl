@@ -1,0 +1,6168 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MAZ pa P GENERAL INCREMENTAL": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MAZ_PaP_GENERAL_INCREMENTAL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.vbeln": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "VBELN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vbeln": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Invoice": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.kunag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "KUNAG"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kunag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Client": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.bukr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "BUKRS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bukr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Company": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.fkart": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "FKART"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fkart": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Doc. Class": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "FKDAT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fkdat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "FKDAT",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fkdat date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "FKDAT",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fkdat year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fkdat yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "FKDAT",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fkdat quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fkdat qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "FKDAT",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fkdat month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fkdat mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "FKDAT",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fkdat day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.bstnk_vf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "BSTNK_VF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bstnk vf": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BSTNK_VF": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Purcharse order": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.vkorg": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "VKORG"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vkorg": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.vtweg": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "VTWEG"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vtweg": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.spart": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "SPART"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spart": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.id_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "ID_DATE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_DATE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "id moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "identification date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.ms_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "MS_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ms id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MS_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ms": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ms identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ms identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ms identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ms credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.pa_P": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "PaP"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pa P": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaP": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "P": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nonsense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "garbage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dreck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "drivel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rubbish": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "trash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "noise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.xblnr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "XBLNR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "xblnr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Reference": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.posnr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "POSNR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "posnr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.matnr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "MATNR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "matnr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.pmatn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "PMATN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pmatn": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Material": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.arktx": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "ARKTX"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "arktx": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Material Reference": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.spara": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "SPARA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spara": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.fkimg": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "FKIMG"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fkimg": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.mwsbp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "mwsbp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mwsbp": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.netwr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "netwr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "netwr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.month_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "MONTH_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MONTH_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "month identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "month identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "month credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.id_matnr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "ID_MATNR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id matnr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_MATNR": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification matnr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity matnr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier matnr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential matnr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Material ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.pk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "PK (C)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pk (C)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "Celsius",
+			        "C"
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.PK_client": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "PK Client (C)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PK client": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PK client (C)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pk customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pk shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pk consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pk patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pk user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pk buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pk punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pk purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pk regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "Celsius",
+			        "C"
+			      ]
+			    },
+			    "tabla_calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tabla calendario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tabla_calendario.date.variation.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tabla_calendario.date.variation.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tabla_calendario.date.variation.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tabla_calendario.date.variation.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tabla_calendario.date.variation.date_hierarchy.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tabla_calendario.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.año_n": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Año_n"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año n": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Año_n": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "semana": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.mes_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Mes (nombre)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes (nombre)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me (nombre)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mes": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.mes_nombre_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Mes (nombre_2)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes (nombre_2)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me (nombre_2)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mes": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.offset_de_mes_actual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Offset de Mes Actual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "offset de mes actual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "offset de me actual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "offset de me real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "offset de me existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "offset de me tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.offset_año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Offset Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "offset año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.fecha_numero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Fecha_numero"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha numero": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fecha_numero": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_calendario.fecha_s": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla Calendario",
+			          "ConceptualProperty": "Fecha_s"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha s": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fecha_s": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.crates_Y036": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Crates Y036 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crates Y036": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crates Y036 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Y036": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.value_YD51_YS1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Value YD51_YS1 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value YD51_YS1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value YD51_YS1 (M)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.invoices_YD51_YS1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Invoices YD51_YS1 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoices YD51_YS1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoices YD51_YS1 (M)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.crates_YD51_YS1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Crates YD51_YS1 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crates YD51_YS1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crates YD51_YS1 (M)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.value_Y054_Y064": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Value Y054_Y064 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value Y054_Y064": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value Y054_Y064 (M)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.invoices_Y054_Y064": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Invoices Y054_Y064 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoices Y054_Y064": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoices Y054_Y064 (M)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.crates_Y054_Y064": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Crates Y054_Y064 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crates Y054_Y064": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crates Y054_Y064 (M)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.correct_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Correct % (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "correct %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "correct % (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "correct percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "correct pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "correct percentage (m)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "correct pct (m)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.total_registries": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Registries (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total registries": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total registries (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "registries": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate registry (m)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall registry (m)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "aggregate registry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall registry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.total_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Amount (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total amount (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate amount (m)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall amount (m)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "aggregate amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.invoices_Y036": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Invoices Y036 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoices Y036": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoices Y036 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Y036": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.value_Y036": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Value Y036 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value Y036": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value Y036 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Y036": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.crates_YC36": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Crates YC36 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crates YC36": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crates YC36 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YC36": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.invoices_YC36": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Invoices YC36 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoices YC36": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoices YC36 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YC36": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.value_YC36": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Value YC36 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value YC36": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value YC36 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YC36": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.crates_Y037": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Crates Y037 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crates Y037": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crates Y037 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Y037": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.invoices_Y037": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Invoices Y037 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoices Y037": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoices Y037 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Y037": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.value_Y037": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Value Y037 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value Y037": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value Y037 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Y037": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.crates_YC37": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Crates YC37 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crates YC37": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crates YC37 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YC37": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.invoices_YC37": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Invoices YC37 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoices YC37": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoices YC37 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YC37": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "medida.value_YC37": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Value YC37 (M)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value YC37": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value YC37 (M)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YC37": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "meter",
+			        "M"
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.name_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "NAME_1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NAME_1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "nickname 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "title 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "label 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "tag 1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Client Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "__insert_gmt_ts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insert gmt ts": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "__insert_gmt_ts": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__insert_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insert gmt ts date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__insert_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insert gmt ts year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "insert gmt ts yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__insert_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insert gmt ts quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "insert gmt ts qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.857
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__insert_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insert gmt ts month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "insert gmt ts mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__insert_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "insert gmt ts day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "__update_gmt_ts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "update gmt ts": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "__update_gmt_ts": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__update_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "update gmt ts date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__update_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "update gmt ts year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "update gmt ts yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__update_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "update gmt ts quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "update gmt ts qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.857
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__update_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "update gmt ts month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "update gmt ts mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "VariationSource": "__update_gmt_ts",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "update gmt ts day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "maz_pap_main.kunag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "kunag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Client": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.bstnk_vf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "bstnk_vf"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Purcharge Order": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Order": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.id_matnr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "ID_MATNR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Material No.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.ms_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "MS_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.status_pap": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "STATUS_PAP"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PaP Status": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.status_ms": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "STATUS_MS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MS Status": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.final_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "FINAL_STATUS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Final Status": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.y054": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "Y054"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Y054 Crates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.y064": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "Y064"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Y064 Crates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.yd51": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "YD51"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YD51 Crates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.ys1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "YS1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YS1 Crates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.y036": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "Y036"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Y036 Crates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.yc36": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "YC36"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YC36 Crates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.y037": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "Y037"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Y037 Crates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_main.yc37": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_MAIN",
+			          "ConceptualProperty": "YC37"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YC37 Crates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_general_incremental.invoice_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "INVOICE_2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Fiscal Invoice": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_general_incremental.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL",
+			          "ConceptualProperty": "NAME"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Client Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_client.kunag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_CLIENT",
+			          "ConceptualProperty": "kunag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Client": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_client.id_matnr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_CLIENT",
+			          "ConceptualProperty": "ID_MATNR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Material No.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "maz_pap_client.status_pap": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MAZ_PaP_CLIENT",
+			          "ConceptualProperty": "STATUS_PAP"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PaP Status": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_fkdat_has_variation_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fkdats_have_fkdat_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_tabla_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_tabla_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_MAZ_pa_P_GENERAL_INCREMENTAL"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_update_gmt_ts": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_update_gmt_tses"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_insert_gmt_ts": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_insert_gmt_tses"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_name_1": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.name_1": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.name_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.name_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_name_1"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_value_YC37": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.value_YC37": {
+			          "Target": {
+			            "Entity": "medida.value_YC37"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.value_YC37"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_value_YC37"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_invoices_YC37": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.invoices_YC37": {
+			          "Target": {
+			            "Entity": "medida.invoices_YC37"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.invoices_YC37"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_invoices_YC37"
+			        }
+			      ]
+			    },
+			    "medida_has_crates_YC37": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.crates_YC37": {
+			          "Target": {
+			            "Entity": "medida.crates_YC37"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.crates_YC37"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_crates_YC37"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_value_Y037": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.value_Y037": {
+			          "Target": {
+			            "Entity": "medida.value_Y037"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.value_Y037"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_value_Y037"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_invoices_Y037": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.invoices_Y037": {
+			          "Target": {
+			            "Entity": "medida.invoices_Y037"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.invoices_Y037"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_invoices_Y037"
+			        }
+			      ]
+			    },
+			    "medida_has_crates_Y037": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.crates_Y037": {
+			          "Target": {
+			            "Entity": "medida.crates_Y037"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.crates_Y037"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_crates_Y037"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_value_YC36": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.value_YC36": {
+			          "Target": {
+			            "Entity": "medida.value_YC36"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.value_YC36"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_value_YC36"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_invoices_YC36": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.invoices_YC36": {
+			          "Target": {
+			            "Entity": "medida.invoices_YC36"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.invoices_YC36"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_invoices_YC36"
+			        }
+			      ]
+			    },
+			    "medida_has_crates_YC36": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.crates_YC36": {
+			          "Target": {
+			            "Entity": "medida.crates_YC36"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.crates_YC36"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_crates_YC36"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_value_Y036": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.value_Y036": {
+			          "Target": {
+			            "Entity": "medida.value_Y036"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.value_Y036"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_value_Y036"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_invoices_Y036": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.invoices_Y036": {
+			          "Target": {
+			            "Entity": "medida.invoices_Y036"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.invoices_Y036"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_invoices_Y036"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_total_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.total_amount": {
+			          "Target": {
+			            "Entity": "medida.total_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.total_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_total_amount"
+			        }
+			      ]
+			    },
+			    "medida_has_total_registries": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.total_registries": {
+			          "Target": {
+			            "Entity": "medida.total_registries"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.total_registries"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_total_registries"
+			        }
+			      ]
+			    },
+			    "medida_has_correct_": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.correct_": {
+			          "Target": {
+			            "Entity": "medida.correct_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.correct_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_correct_"
+			        }
+			      ]
+			    },
+			    "medida_has_crates_Y054_Y064": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.crates_Y054_Y064": {
+			          "Target": {
+			            "Entity": "medida.crates_Y054_Y064"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.crates_Y054_Y064"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_crates_Y054_Y064"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_invoices_Y054_Y064": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.invoices_Y054_Y064": {
+			          "Target": {
+			            "Entity": "medida.invoices_Y054_Y064"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.invoices_Y054_Y064"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_invoices_Y054_Y064"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_value_Y054_Y064": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.value_Y054_Y064": {
+			          "Target": {
+			            "Entity": "medida.value_Y054_Y064"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.value_Y054_Y064"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_value_Y054_Y064"
+			        }
+			      ]
+			    },
+			    "medida_has_crates_YD51_YS1": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.crates_YD51_YS1": {
+			          "Target": {
+			            "Entity": "medida.crates_YD51_YS1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.crates_YD51_YS1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_crates_YD51_YS1"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_invoices_YD51_YS1": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.invoices_YD51_YS1": {
+			          "Target": {
+			            "Entity": "medida.invoices_YD51_YS1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.invoices_YD51_YS1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_invoices_YD51_YS1"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_medida_value_YD51_YS1": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "medida.value_YD51_YS1": {
+			          "Target": {
+			            "Entity": "medida.value_YD51_YS1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "medida.value_YD51_YS1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_value_YD51_YS1"
+			        }
+			      ]
+			    },
+			    "medida_has_crates_Y036": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.crates_Y036": {
+			          "Target": {
+			            "Entity": "medida.crates_Y036"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.crates_Y036"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_crates_Y036"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_fecha_s": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.fecha_s": {
+			          "Target": {
+			            "Entity": "tabla_calendario.fecha_s"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.fecha_s"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_fecha_s"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_fecha_numero": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.fecha_numero": {
+			          "Target": {
+			            "Entity": "tabla_calendario.fecha_numero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.fecha_numero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_fecha_numeros"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_offset_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.offset_año": {
+			          "Target": {
+			            "Entity": "tabla_calendario.offset_año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.offset_año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_offset_años"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_offset_de_mes_actual": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.offset_de_mes_actual": {
+			          "Target": {
+			            "Entity": "tabla_calendario.offset_de_mes_actual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.offset_de_mes_actual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_offset_de_mes_actuals"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.dia": {
+			          "Target": {
+			            "Entity": "tabla_calendario.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_dias"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_mes_nombre_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.mes_nombre_2": {
+			          "Target": {
+			            "Entity": "tabla_calendario.mes_nombre_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.mes_nombre_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_mes_nombre_2"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_mes_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.mes_nombre": {
+			          "Target": {
+			            "Entity": "tabla_calendario.mes_nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.mes_nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_mes_nombre"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.semana": {
+			          "Target": {
+			            "Entity": "tabla_calendario.semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_semanas"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.me": {
+			          "Target": {
+			            "Entity": "tabla_calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_año_n": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.año_n": {
+			          "Target": {
+			            "Entity": "tabla_calendario.año_n"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.año_n"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_año_Ns"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.año": {
+			          "Target": {
+			            "Entity": "tabla_calendario.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_años"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario": {
+			          "Target": {
+			            "Entity": "tabla_calendario"
+			          }
+			        },
+			        "tabla_calendario.date": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_calendarios_have_dates"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_PK_client": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.PK_client": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.PK_client"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.PK_client"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_PK_clients"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_pk": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.pk": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.pk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.pk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_pk"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_id_matnr": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.id_matnr": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.id_matnr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.id_matnr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_id_matnrs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_month_id": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.month_id": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.month_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.month_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_month_ids"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_netwr": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.netwr": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.netwr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.netwr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_netwrs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_mwsbp": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.mwsbp": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.mwsbp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.mwsbp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_mwsbps"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_fkimg": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkimg": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkimg"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkimg"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_fkimgs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_spara": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.spara": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.spara"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.spara"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_sparas"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_arktx": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.arktx": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.arktx"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.arktx"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_arktxes"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_pmatn": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.pmatn": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.pmatn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.pmatn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_pmatns"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_matnr": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.matnr": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.matnr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.matnr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_matnrs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_posnr": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.posnr": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.posnr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.posnr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_posnrs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_xblnr": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.xblnr": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.xblnr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.xblnr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_xblnrs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_pa_P": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.pa_P": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.pa_P"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.pa_P"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_pa_P"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_ms_id": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.ms_id": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.ms_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.ms_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_ms_ids"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_id_date": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.id_date": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.id_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.id_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_id_dates"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_spart": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.spart": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.spart"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.spart"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_sparts"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_vtweg": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.vtweg": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.vtweg"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.vtweg"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_vtwegs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_vkorg": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.vkorg": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.vkorg"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.vkorg"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_vkorgs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_bstnk_vf": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.bstnk_vf": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.bstnk_vf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.bstnk_vf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_bstnk_vfs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_fkdat": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_fkdats"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_fkart": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkart": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkart"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkart"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_fkarts"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_bukr": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.bukr": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.bukr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.bukr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_bukrs"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_kunag": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.kunag": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.kunag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.kunag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_kunags"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_has_vbeln": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.vbeln": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.vbeln"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.vbeln"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MAZ_pa_P_GENERAL_INCREMENTAL_have_vbelns"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_fkdat_variation_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fkdat_date_hierarchies_have_fkdat_years"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_fkdat_variation_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fkdat_date_hierarchies_have_fkdat_quarters"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_fkdat_variation_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fkdat_date_hierarchies_have_fkdat_months"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_fkdat_variation_date_hierarchy_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.day": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.fkdat.variation.date_hierarchy.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fkdat_date_hierarchies_have_fkdat_days"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_date_has_variation_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario.date": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date"
+			          }
+			        },
+			        "tabla_calendario.date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario.date"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_date_variation_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario.date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy"
+			          }
+			        },
+			        "tabla_calendario.date.variation.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_date_variation_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario.date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy"
+			          }
+			        },
+			        "tabla_calendario.date.variation.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_date_variation_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario.date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy"
+			          }
+			        },
+			        "tabla_calendario.date.variation.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "tabla_calendario_date_variation_date_hierarchy_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_calendario.date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy"
+			          }
+			        },
+			        "tabla_calendario.date.variation.date_hierarchy.day": {
+			          "Target": {
+			            "Entity": "tabla_calendario.date.variation.date_hierarchy.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "tabla_calendario.date.variation.date_hierarchy.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_insert_gmt_ts_has_variación_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "insert_gmt_tses_have_insert_gmt_ts_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_insert_gmt_ts_variación_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "insert_gmt_ts_date_hierarchies_have_insert_gmt_ts_years"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_insert_gmt_ts_variación_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "insert_gmt_ts_date_hierarchies_have_insert_gmt_ts_quarters"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_insert_gmt_ts_variación_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "insert_gmt_ts_date_hierarchies_have_insert_gmt_ts_months"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_insert_gmt_ts_variación_date_hierarchy_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.day": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.insert_gmt_ts.variación.date_hierarchy.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "insert_gmt_ts_date_hierarchies_have_insert_gmt_ts_days"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_update_gmt_ts_has_variación_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "update_gmt_tses_have_update_gmt_ts_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_update_gmt_ts_variación_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "update_gmt_ts_date_hierarchies_have_update_gmt_ts_years"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_update_gmt_ts_variación_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "update_gmt_ts_date_hierarchies_have_update_gmt_ts_quarters"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_update_gmt_ts_variación_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "update_gmt_ts_date_hierarchies_have_update_gmt_ts_months"
+			        }
+			      ]
+			    },
+			    "MAZ_pa_P_GENERAL_INCREMENTAL_update_gmt_ts_variación_date_hierarchy_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "MAZ_PaP_GENERAL_INCREMENTAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			          }
+			        },
+			        "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.day": {
+			          "Target": {
+			            "Entity": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "MAZ_pa_P_GENERAL_INCREMENTAL.update_gmt_ts.variación.date_hierarchy.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "update_gmt_ts_date_hierarchies_have_update_gmt_ts_days"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

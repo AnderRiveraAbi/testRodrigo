@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "PaPtest"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "370d94ab-d105-4883-8f95-0df05189cb4b"
+  }
+}

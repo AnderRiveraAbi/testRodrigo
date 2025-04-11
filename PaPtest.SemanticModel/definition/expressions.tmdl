@@ -1,0 +1,52 @@
+expression Servidor = "aswweudevasx131.sql.azuresynapse.net" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: f52e36be-10bf-4d43-a4ca-6300fdacbf2b
+	queryGroup: Parámetros
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression BD = "sqlpoolcelonis131" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 9f7536e2-dc26-4fb5-86fc-cfadce73d20b
+	queryGroup: Parámetros
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression Top = "1000" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 252bd780-7e52-4f87-9719-c79aae98957a
+	queryGroup: Parámetros
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+/// Si el valor es 1, trae toda la datos de la tabla, de lo contrario solo toma el valor del Top
+expression TotalDatos = "0" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: b6752d66-4f24-4971-ac8a-47f6447cf9bf
+	queryGroup: Parámetros
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navigation
+
+expression servidorADB = "adb-3868934805885546.6.azuredatabricks.net" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 475e8754-5b2b-4707-be30-bd0dc1f6589b
+
+	annotation PBI_ResultType = Text
+
+expression rutaADB = "/sql/1.0/warehouses/7e60466168e543cf" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 9cec8d8b-fd69-4a79-bed2-ec801ba6fbfd
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Text
+
+expression catalogo = "brewdat_uc_maz_prod" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 2ec34f33-87ac-4260-8e7b-8264f24f610b
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Text
+

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "name": "0b0fba35f9c3c7ada937",
+  "position": {
+    "x": 680.37282518640745,
+    "y": 83.845979439698723,
+    "z": 11000,
+    "height": 287.15810166845563,
+    "width": 572.05468102734562,
+    "tabOrder": 10000
+  },
+  "visualGroup": {
+    "displayName": "FondoBlanco",
+    "groupMode": "ScaleMode"
+  }
+}

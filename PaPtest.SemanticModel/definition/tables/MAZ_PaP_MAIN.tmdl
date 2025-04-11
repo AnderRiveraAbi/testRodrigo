@@ -1,0 +1,240 @@
+table MAZ_PaP_MAIN
+	lineageTag: d6fff631-0fc8-4ade-95d6-5c84db5d512d
+
+	column kunag
+		dataType: string
+		lineageTag: 931cad1f-a6f2-45b2-9c55-f8f5a71a1c63
+		summarizeBy: none
+		sourceColumn: kunag
+
+		annotation SummarizationSetBy = Automatic
+
+	column bstnk_vf
+		dataType: string
+		lineageTag: 9a14d03a-e587-4a74-b82b-58cb0b270d46
+		summarizeBy: none
+		sourceColumn: bstnk_vf
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_MATNR
+		dataType: string
+		lineageTag: d3f884d2-4277-4f10-8cd9-17d72bbbdd88
+		summarizeBy: none
+		sourceColumn: ID_MATNR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PaP
+		dataType: string
+		lineageTag: d9692498-6c03-4b5f-bb38-bc01e1147d5a
+		summarizeBy: none
+		sourceColumn: PaP
+
+		annotation SummarizationSetBy = Automatic
+
+	column MS_ID
+		dataType: string
+		lineageTag: 03f9a3f2-a001-4e67-9653-058c09a847c8
+		summarizeBy: none
+		sourceColumn: MS_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column STATUS_PAP
+		dataType: string
+		lineageTag: 7d8d6d0a-a980-4e97-a8e5-e426fac19e7f
+		summarizeBy: none
+		sourceColumn: STATUS_PAP
+
+		annotation SummarizationSetBy = Automatic
+
+	column STATUS_MS
+		dataType: string
+		lineageTag: b0d70fb3-b4f1-461b-b4bc-16effd8a5f65
+		summarizeBy: none
+		sourceColumn: STATUS_MS
+
+		annotation SummarizationSetBy = Automatic
+
+	column WARNING
+		dataType: string
+		lineageTag: 40c426f7-8be2-462b-b5d9-29ef5d781af6
+		summarizeBy: none
+		sourceColumn: WARNING
+
+		annotation SummarizationSetBy = Automatic
+
+	column Y054
+		dataType: double
+		lineageTag: c2469318-3133-4a05-8ca4-1fe89d832912
+		summarizeBy: sum
+		sourceColumn: Y054
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Y064
+		dataType: double
+		lineageTag: f112b245-8cbd-4ad9-bb2e-28f4a7f32b34
+		summarizeBy: sum
+		sourceColumn: Y064
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column YD51
+		dataType: double
+		lineageTag: 2099f95e-7417-4bcc-af9b-2683fed1a401
+		summarizeBy: sum
+		sourceColumn: YD51
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column YS1
+		dataType: double
+		lineageTag: 66beefb9-650f-45fe-a61c-21344db01af2
+		summarizeBy: sum
+		sourceColumn: YS1
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Y036
+		dataType: double
+		lineageTag: 2501bec1-73bf-4433-a1ec-8573a52aedfc
+		summarizeBy: sum
+		sourceColumn: Y036
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column YC36
+		dataType: double
+		lineageTag: ddbb5c1b-a2dc-4acf-9b74-a4a3aeae2da2
+		summarizeBy: sum
+		sourceColumn: YC36
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Y037
+		dataType: double
+		lineageTag: b2d72e38-db1e-4805-9ec5-a3eacd616f78
+		summarizeBy: sum
+		sourceColumn: Y037
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column YC37
+		dataType: double
+		lineageTag: 4b7d01a1-4b48-433d-ba65-adb68829ed14
+		summarizeBy: sum
+		sourceColumn: YC37
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FINAL_STATUS
+		dataType: string
+		lineageTag: 83edfcf5-a9ff-484b-b298-e07f05cd7a49
+		summarizeBy: none
+		sourceColumn: FINAL_STATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column __insert_gmt_ts
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 7fb42c10-7c02-47ce-b84d-ae3e93485767
+		summarizeBy: none
+		sourceColumn: __insert_gmt_ts
+
+		variation Variación
+			isDefault
+			relationship: 820ee25a-a94a-418c-82a0-974a6d7cb6f2
+			defaultHierarchy: LocalDateTable_bf9705c2-a0ab-4974-817c-fed4d7821065.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column __update_gmt_ts
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 49d60735-348a-44bb-97b9-978a9376fd73
+		summarizeBy: none
+		sourceColumn: __update_gmt_ts
+
+		variation Variación
+			isDefault
+			relationship: abe1c25d-9cbd-4392-86d3-a8c025013daf
+			defaultHierarchy: LocalDateTable_b179d096-3d85-49ab-b0ef-d975c8a13ba3.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column key = MAZ_PaP_MAIN[kunag]&MAZ_PaP_MAIN[bstnk_vf]&MAZ_PaP_MAIN[ID_MATNR]
+		lineageTag: 5df0b9fa-5c3a-4fbf-9519-03b8f1de8daa
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column pkC
+		dataType: string
+		lineageTag: b9bb3060-b1f7-411d-beb9-1d5b39ee5dae
+		summarizeBy: none
+		sourceColumn: pkC
+
+		annotation SummarizationSetBy = Automatic
+
+	column row_number
+		dataType: int64
+		formatString: 0
+		lineageTag: f839281b-88dc-4275-bd73-451e2ac4e80c
+		summarizeBy: sum
+		sourceColumn: row_number
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MAZ_PaP_MAIN = m
+		mode: import
+		queryGroup: Synapse
+		source = ```
+				let
+				    Parametro_Top=Top,
+				    Parametro_Total_Datos=TotalDatos,
+				    q="select  *
+				from brewdat_uc_maz_dev.gld_maz_finance_internalcontrol.maz_pap_main 
+				limit 100",
+				    q2="select *
+				from brewdat_uc_maz_dev.gld_maz_finance_internalcontrol.maz_pap_main 
+				 
+				"
+				,
+				
+				
+				    Source = if Parametro_Total_Datos = "0" then  Value.NativeQuery(Databricks.Catalogs(servidorADB, rutaADB,
+				                [Catalog=catalogo, Database=null, EnableAutomaticProxyDiscovery=null])
+				                {[Name=catalogo,Kind="Database"]}
+				                [Data],q,null,[EnableFolding=true])
+				            else Value.NativeQuery(Databricks.Catalogs(servidorADB, rutaADB,
+				                [Catalog=catalogo, Database=null, EnableAutomaticProxyDiscovery=null])
+				                {[Name=catalogo,Kind="Database"]}
+				                [Data],q2,null,[EnableFolding=true]),
+				    #"Filas filtradas" = Table.SelectRows(Source, each [row_number] = 1)
+				in
+				    #"Filas filtradas"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

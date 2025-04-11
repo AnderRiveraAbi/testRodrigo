@@ -1,0 +1,141 @@
+table 'Tabla Calendario'
+	lineageTag: 830746c5-d024-4c88-83a8-5a10a69278eb
+
+	column Date
+		formatString: dd/mm/yyyy
+		lineageTag: eb7e6307-e531-4e15-8676-6914a93e9269
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: 0347d42b-46a7-4ef8-8295-71873cc48bc2
+			defaultHierarchy: LocalDateTable_bc382b34-2c27-42cd-b304-63e782c14c59.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Año
+		formatString: 0
+		lineageTag: 5dd91896-2626-4e53-b08a-f565019dcc7c
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Año]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Año_n
+		formatString: 0
+		lineageTag: 5d09e904-5de0-4874-92eb-bcde91caec20
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Año_n]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes
+		formatString: 0
+		lineageTag: b5140df6-d3af-494a-a3d8-7ecab1d15be9
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Mes]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semana
+		formatString: 0
+		lineageTag: 9b70b251-0d87-4d6f-9163-68f8d26493c5
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Semana]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mes (nombre)'
+		lineageTag: 84355b5c-69c3-4d13-9018-132cec84e1e2
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mes (nombre)]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mes (nombre_2)'
+		lineageTag: 10b60a22-2e63-475f-8161-65731e1456b8
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mes (nombre_2)]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dia
+		formatString: 0
+		lineageTag: 20d02ddb-b04e-484f-8bdc-fa4bcfb064e4
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Dia]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Offset de Mes Actual'
+		formatString: 0
+		lineageTag: 5ecde29d-bd1c-4efd-8058-b3c96b40decc
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Offset de Mes Actual]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Offset Año'
+		formatString: 0
+		lineageTag: 39c18c6d-0578-4fc4-8952-a1a57f973a9e
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Offset Año]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha_numero
+		formatString: 0
+		lineageTag: 604a7d94-74a3-4632-9fbd-7bd6354c4241
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Fecha_numero]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha_s
+		lineageTag: c15b0b49-b354-4f7b-a536-ecb6de3f676f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Fecha_s]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Tabla Calendario' = calculated
+		mode: import
+		source =
+				
+				ADDCOLUMNS(
+				    CALENDAR(
+				        MIN(MAZ_PaP_GENERAL_INCREMENTAL[ID_DATE]),
+				        MAX(MAZ_PaP_GENERAL_INCREMENTAL[ID_DATE])
+				    ),
+				    "Año", YEAR([Date]),
+				    "Año_n", YEAR([Date]),
+				    "Mes",MONTH([Date]),
+				    "Semana", WEEKDAY([Date],2),
+				    "Mes (nombre)", FORMAT([Date],"mmmm"),
+				    "Mes (nombre_2)", FORMAT([Date],"mmm"),
+				    "Dia",DAY([Date]),
+				    "Offset de Mes Actual", (YEAR([Date])-YEAR(TODAY()))*12 +(MONTH([Date])-MONTH(TODAY())),
+				    "Offset Año",YEAR([Date])-  YEAR(TODAY()),
+				    "Fecha_numero", YEAR([Date])*10000+MONTH([Date])*100+DAY([Date]),
+				    "Fecha_s", YEAR([Date]) & "-" & FORMAT([Date],"mmm")
+				)
+
+	annotation PBI_Id = 3620738aff1d40ef8e20493b4eb1dad9
+

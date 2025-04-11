@@ -1,0 +1,41 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CO
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup Parámetros
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup Synapse
+
+	annotation PBI_QueryGroupOrder = 1
+
+annotation PBI_QueryOrder = ["MAZ_PaP_CLIENT","MAZ_PaP_GENERAL_INCREMENTAL","MAZ_PaP_MAIN","Servidor","BD","Medidas","Top","TotalDatos","servidorADB","rutaADB","catalogo"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.141.1451.0 (25.03)+5007b75f0f7edbed506e31fcb76584cd6d711788
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DateTableTemplate_02a11a7e-2912-49c0-bfb7-ee02da35c15f
+ref table MAZ_PaP_GENERAL_INCREMENTAL
+ref table LocalDateTable_1013887c-f171-41b0-957a-c1c17953c6db
+ref table 'Tabla Calendario'
+ref table LocalDateTable_bc382b34-2c27-42cd-b304-63e782c14c59
+ref table Medidas
+ref table LocalDateTable_e7e6963e-061f-4e7f-8efb-7b393fe44be3
+ref table LocalDateTable_f4b3fa83-5282-48ec-b2fc-fb5ef5c41714
+ref table MAZ_PaP_MAIN
+ref table LocalDateTable_bf9705c2-a0ab-4974-817c-fed4d7821065
+ref table LocalDateTable_b179d096-3d85-49ab-b0ef-d975c8a13ba3
+ref table MAZ_PaP_CLIENT
+ref table LocalDateTable_8fafeb22-8d41-468a-baae-a0954e285eaa
+ref table LocalDateTable_8cbb4e3d-a931-45a9-ae39-9476c2cd59e0
+
+ref cultureInfo en-US
+
