@@ -2,18 +2,18 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "278c5da075677088bd14",
   "position": {
-    "x": 310.51212938005392,
-    "y": 176.81940700808624,
+    "x": 47.439353099730454,
+    "y": 32.776280323450131,
     "z": 0,
     "height": 284.63611859838272,
     "width": 841.832884097035,
     "tabOrder": 0
   },
   "visual": {
-    "visualType": "card",
+    "visualType": "barChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Y": {
           "projections": [
             {
               "field": {
